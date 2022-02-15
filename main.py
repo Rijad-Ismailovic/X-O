@@ -52,8 +52,6 @@ def run():
     clock = pygame.time.Clock()
     clock.tick(30)
 
-    fade()
-
     click = False
     win = False
     turn = 1
@@ -329,4 +327,5 @@ def run():
 
 for i in range(0, 4000):
     instructions()
+fade()
 run()
